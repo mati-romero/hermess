@@ -1,0 +1,382 @@
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraLightItalic;
+    src: url(../fonts/Poppins-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+
+
+body {
+    background-color: rgba(33, 25, 46, 1);
+}
+
+p {
+    font-family: Poppins-ExtraLight;
+}
+
+.sub-title {
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    font-family: Poppins-ExtraBold;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.text-desc {
+    color: #342A43;
+    font-size: 1rem;
+    text-align: left;
+    font-family: Poppins-SemiBold;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.text-desc-fluid {
+    color: #342A43;
+    font-size: 1rem;
+    text-align: left;
+    font-family: Poppins-SemiBold;
+    width: 100%;
+    line-height: 1.5;
+}
+
+/*Nav*/
+
+.menu-icon {
+    font-size: 1.5rem;
+}
+
+.top-nav-bar-link {
+    color: white;
+    font-size: 1rem;
+    font-family: Poppins-ExtraLight;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 1rem;
+    position: relative;
+}
+
+.top-nav-bar-link::after {
+    content: '';
+    position: absolute;
+    top: calc(50% + 1rem);
+    left: 50%;
+    width: 3px;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.top-nav-bar-link:hover::after {
+    background-color: white;
+}
+
+.bttm-nav-bar {
+    width: 100%;
+    background-image: linear-gradient(to right, #463C55 , #342A43); 
+}
+
+.bttm-nav-bar-ul {
+    text-align: center;
+}
+
+.bttm-nav-bar-li {
+    display: inline-block;
+    padding: 1.5rem 1rem;
+    list-style: none;
+    position: relative;
+}
+
+.bttm-nav-bar-li::after {
+    content: '';
+    position: absolute;
+    top: calc(50% + 1rem);
+    left: 50%;
+    width: 3px;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.bttm-nav-bar-li:hover::after {
+    background-color: white;
+}
+
+.bttm-nav-bar-li:hover {
+    background-image: linear-gradient(to right, #4C425B , #5A7469);
+}
+
+.bttm-nav-bar-link {
+    color: white;
+    font-size: 1rem;
+    font-family: Poppins-ExtraLight;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*About us*/
+
+.about-us {
+    background-color: #342A43;
+    border-radius: 18px;
+    border: 2px solid ;
+    border-bottom: 2px solid #2A213C;
+    border-right: 2px solid #2A213C;
+}
+
+.about-us-title {
+    font-size: 1.3rem;
+    color: white;
+    font-family: Poppins-SemiBold;
+}
+
+.about-us-txt {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+}
+
+.about-us-add-first {
+    border-top-left-radius: 18px;
+    background-image: linear-gradient(to right, #4C425B , #5A7469);
+    position: relative;
+}
+
+.triangulo {
+    position: absolute;
+    top: calc(50% - 7.5px);
+    right: 0;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #342A43 transparent transparent;
+    transform: rotate(0deg);
+}
+
+.about-us-add {
+    border-top: 2px solid #4C425B;
+    border-right: 2px solid #4C425B;
+    background-color: #463C55;
+}
+
+/*Porfolio*/
+
+.porfolio-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 4.5rem;
+    flex-wrap: wrap;
+}
+
+.porfolio {
+    background-color: #342A43;
+    border-radius: 18px;
+    position: relative;
+    border-bottom: 2px solid #2A213C;
+    border-right: 2px solid #2A213C;
+    width: 18rem;
+    margin-bottom: 4.5rem;
+}
+
+.porfolio-head {
+    padding: 3rem 1.5rem 0 1.5rem;
+}
+
+.porfolio-body {
+    padding: 1.5rem;
+    margin-bottom: 115px;
+}
+
+.porfolio-title {
+    color: white;
+    font-family: Poppins-SemiBold;
+    font-size: 1.2rem;
+}
+
+.line-short {
+    margin-top: 1rem;
+    width: 2rem;
+    height: 3px;
+    background-color: #463C55;
+}
+
+.porfolio-text {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+}
+
+.porfolio-footer {
+    border-top: 2px solid #4C425B;
+    background-color: #463C55;
+    padding: 1.5rem;
+    border-end-start-radius: 18px;
+    border-end-end-radius: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-height: 115px;
+}
+
+.porfolio-img {
+    border-radius: 50%;
+    position: absolute;
+    top: -2.25rem;
+    left: 2.25rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 2px solid #2A213C;
+}
+
+.porfolio-img img {
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+}
+
+.porfolio-btn {
+    background-color: rgba(42, 33, 60, 1);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 0.375rem 0.75rem;
+    transition: 2s;
+}
+
+.porfolio-btn:hover {
+    box-shadow: 0px -2px 27px 2px rgba(255,255,255,1);
+}
+
+/*Contact*/
+
+
+.bttn-search-azul {
+    color: rgba(42, 33, 60, 1);
+    background: none;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    border: 2px solid rgba(42, 33, 60, 1);
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+.btn-search {
+    color: #FFF;
+    background-color: rgba(42, 33, 60, 1);
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 2s;
+}
+
+.btn-search:hover {
+    box-shadow: 0px -2px 27px 2px rgba(255,255,255,1);
+}
+
+/* Form */
+
+.form-label {
+    color: white;
+    font-family: Poppins-ExtraLight;
+}
+
+.form-input {
+    background-color: rgba(42, 33, 60, 1);
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #2A213C;
+    border-right: 2px solid #2A213C;
+    padding: 5px 10px;
+    color: white;
+    width: 100%;
+    font-family: Poppins-ExtraLight;
+}
+
+.form-textarea {
+    background-color: rgba(42, 33, 60, 1);
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #2A213C;
+    border-right: 2px solid #2A213C;
+    padding: 5px 10px;
+    color: white;
+    width: 100%;
+    resize: none;
+    font-family: Poppins-ExtraLight;
+}
+
+.form-input:focus, .form-textarea:focus {
+    outline: none;
+}
+
+/*Footer*/
+
+.btn-out-line-social {
+    background-color: rgba(42, 33, 60, 1);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1rem;
+    height: 2rem;
+    width: 2rem;
+    outline: none;
+    border: none;
+    transition: 2s;
+}
+
+.btn-out-line-social:hover {
+    box-shadow: 0px -2px 27px 2px rgba(255,255,255,1);
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: white;
+    font-family: Poppins-ExtraLightItalic;
+}
+
+/*Responsivo*/
+
+@media screen and (max-width: 768px) {
+    .text-desc, .sub-title {
+        text-align: center;
+    }
+
+    .porfolio-cont {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .text-desc {
+        width: 100%;
+    }
+
+}
