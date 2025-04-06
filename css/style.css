@@ -1,0 +1,17 @@
+:root {
+    --azul-claro-1: #d3dbe6;
+    --azul-claro-2: #bdc8d6;
+    --azul-oscuro-1: #1a1f2b;
+    --azul-profundo: #012b64;
+    --cian-vibrante: #1fa5b1;
+    --gris-claro: #c1cac8;
+    --verde-agua: #6eddd4;
+}
+
+.bg-gris {
+    background-color: var(--gris-claro);
+}
+
+.bg-cian {
+    background-color: var(--cian-vibrante);
+}
