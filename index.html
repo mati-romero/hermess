@@ -18,37 +18,56 @@
     <link rel="icon" type="image/png" href="img/logo2.png">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-gris">
+        <div class="container-fluid">
+            <img style="width: 100px;" src="img/logo.png" alt="Logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="simple-link mx-3" href="#p_nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="simple-link mx-3" href="#p_consultoria">Consultoría</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <section id="p_vision" class="container-fluid bg-gris">
         <div class="row p-3 align-items-center">
-            <div class="col-6 text-center">
-                <h1>CONSTRUYE TU VISIÓN, COMPARTE TU ESENCIA, IMPLEMENTA TU ÉXITO.</h1>
+            <div class="col-12 col-lg-6 text-center poppins-medium">
+                <h1 class="text-uppercase poppins-semibold">CONSTRUYE TU VISIÓN, COMPARTE TU ESENCIA, IMPLEMENTA TU ÉXITO.</h1>
                 <p>En Hermess, ayudamos a pequeños emprendimientos a
                     transformar ideas en realidades. Diseñamos estrategias
                     personalizadas en marketing, diseño e innovación para
                     que conectes con tu público y alcances tus metas.<br>
                     ¡Empieza hoy a construir el futuro de tu negocio!</p>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <img class="w-100" src="img/img1.png" alt="vision">
             </div>
         </div>
     </section>
 
-    <section class="container-fluid p-3 bg-cian">
+    <section id="p_nosotros" class="container-fluid p-3 bg-cian">
         <div class="row">
             <div class="col-1">
                 <img class="w-100" src="img/logo2.png" alt="icono">
             </div>
-            <div class="col-11">
-                <h2>¿Por qué elegir Hermess?</h2>
+            <div class="col-11 poppins-medium">
+                <h2 class="text-uppercase poppins-semibold">¿Por qué elegir Hermess?</h2>
                 <p>
                     En Hermess, creemos que cada emprendimiento tiene el potencial de transformar su 
                     industria. Nos destacamos por nuestra capacidad de unir creatividad, diseño, 
                     marketing e innovación, ofreciendo soluciones personalizadas que realmente marcan 
                     la diferencia.
                 </p>
-                <h3>¿Qué nos hace únicos?</h3>
+                <h3 class="text-uppercase poppins-semibold">¿Qué nos hace únicos?</h3>
                 <ul>
                     <li>Enfoque Multidisciplinario: Combinamos estrategias creativas, diseño disruptivo y rigor innovador para generar resultados extraordinarios.</li>
                     <li>Compromiso con la Excelencia: Nos asociamos contigo para alcanzar tus metas, garantizando siempre la máxima calidad en cada entrega.</li>
@@ -58,18 +77,18 @@
         </div>
     </section>
 
-    <section class="container-fluid p-3 bg-gris">
+    <section id="p_consultoria" class="container-fluid p-3 bg-gris">
         <div class="row">
             <div class="col-1">
                 <img class="w-100" src="img/logo2.png" alt="icono">
             </div>
-            <div class="col-11">
-                <h2>Consultoría</h2>
+            <div class="col-11 poppins-medium">
+                <h2 class="text-uppercase poppins-semibold">Consultoría</h2>
                 <p>
                     Nuestro equipo está aquí para acompañarte en cada paso del camino. Ofrecemos consultorías
                     personalizadas en:
                 </p>
-                <h3>¿Qué nos hace únicos?</h3>
+                <h3 class="text-uppercase poppins-semibold">¿Qué nos hace únicos?</h3>
                 <ul>
                     <li> Marketing Estratégico: Diseñamos planes que optimizan tus recursos y aumentan tu visibilidad.</li>
                     <li> Diseño y Branding: Creamos marcas memorables que se alinean con tu visión y valores.</li>
@@ -85,51 +104,41 @@
     <footer class="container-fluid bg-gris p-3">
         <div class="row">
             <div class="col-12 row">
-                <div class="col-3">
-                    <img class="w-100" src="img/logo.png" alt="">
-                    <p>
+                <div class="col-12 col-md-5 col-lg-4 col-xl-3">
+                    <img style="width: 200px;" src="img/logo.png" alt="">
+                    <p class="poppins-medium">
                         En Hermess, no solo trabajamos contigo; somos
                         parte de tu equipo, comprometidos con
                         transformar tus ideas en realidades y llevartu
                         negocio al siguiente nivel..
                     </p>
                 </div>
-                <div class="col-3"></div>
-                <div class="col-2">
-                    <h5>SOBRE NOSOTROS</h5>
-                    <a href="">How it works</a>
-                    <a href="">Featured</a>
+                <div class="d-none d-lg-block col-lg-2 col-xl-3"></div>
+                <div class="col-4 col-md-2">
+                    <h5 class="text-uppercase poppins-semibold">SOBRE NOSOTROS</h5>
+                    <a class="simple-link" href="">How it works</a>
+                    <a class="simple-link" href="">Featured</a>
                 </div>
-                <div class="col-2">
-                    <h5>PROYECTOS</h5>
-                    <a href="">Events</a>
-                    <a href="">Blog</a>
-                    <a href="">Partnership</a>
-                    <a href="">Podcast</a>
-                    <a href="">Bussiness Relation</a>
-                    <a href="">Invite a friend</a>
+                <div class="col-4 col-md-2">
+                    <h5 class="text-uppercase poppins-semibold">PROYECTOS</h5>
+                    <a class="simple-link" href="">Events</a>
+                    <a class="simple-link" href="">Blog</a>
+                    <a class="simple-link" href="">Partnership</a>
+                    <a class="simple-link" href="">Podcast</a>
+                    <a class="simple-link" href="">Bussiness Relation</a>
+                    <a class="simple-link" href="">Invite a friend</a>
                 </div>
-                <div class="col-2">
-                    <h5>CONTACTO</h5>
-                    <a href="">Discord</a>
-                    <a href="">Instagram</a>
-                    <a href="">Twitter</a>
-                    <a href="">Facebook</a>
+                <div class="col-4 col-md-2">
+                    <h5 class="text-uppercase poppins-semibold">CONTACTO</h5>
+                    <a class="simple-link" href="">Discord</a>
+                    <a class="simple-link" href="">Instagram</a>
+                    <a class="simple-link" href="">Twitter</a>
+                    <a class="simple-link" href="">Facebook</a>
                 </div>
-
-                
-
-
-
-
-
-
-
-
             </div>
             <div class="col-12 text-start">
                 <hr>
-                <p>©2025 Company Name. All rights reserved</p>
+                <p class="poppins-light-italic">©2025 Company Name. All rights reserved</p>
             </div>
         </div>
     </footer>
